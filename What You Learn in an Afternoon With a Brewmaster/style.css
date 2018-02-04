@@ -1,0 +1,432 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden
+}
+
+/* BOX CONTAINER */
+
+/*body {
+  background: url("./img/article.png") no-repeat center top;
+  height: 1700px;
+}*/
+
+.container {
+  position: relative;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 75px;
+  margin-top: 75px;
+  /*opacity: 0.6;*/
+}
+
+/* HEADER DATE/AUTEUR */
+
+.fashion {
+  font-family: 'Oswald', serif;
+  font-size: 14px;
+  color: #274da3;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-right: 25px;
+}
+
+.date {
+  font-size: 14px;
+  color: #c6c6c6;
+  font-style: italic;
+}
+
+.by {
+  font-family: 'Varela', serif;
+  font-size: 12px;
+  color: #c6c6c6;
+  font-style: italic;
+  font-weight: bold;
+  float: right;
+  margin-right: -18px;
+}
+
+.author {
+  font-family: 'Oswald', serif;
+  font-size: 14px;
+  color: #8d8d8d;
+  font-weight: bold;
+  letter-spacing: 1px;
+  float: right;
+  margin-right: -135px;
+  margin-top: -6px;
+}
+
+/* TITLE */
+
+.title {
+  font-size: 25px;
+  font-family: 'Varela Round', serif;
+}
+
+.fa-bookmark {
+  position: absolute;
+  color: #215b9a;
+  left: -8%;
+  top: 8.2%;
+}
+
+.citation {
+  font-family: 'PT Sans', serif;
+  font-size: 28px;
+  font-style: italic;
+  color: #8d8d8d;
+  font-weight: 100;
+}
+
+/* OCEAN IMAGE */
+
+.ocean {
+  width: 100vw;
+  margin-left: 57%;
+  transform: translateX(-50%);
+  margin-top: 15px;
+}
+
+.oceant {
+  font-family: 'PT Sans', serif;
+  font-size: 12px;
+  color: #c6c6c6;
+  font-style: italic;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+p {
+  font-size: 17px;
+  color: #8d8d8d;
+  font-family: 'Varela Round', serif;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+
+/* IMAGE SLIDER */
+
+.slider {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  transform: translateX(-45%);
+
+}
+
+.raisin {
+  width: 25vw;
+  height: 25vw;
+  position: absolute;
+  left: -17%;
+}
+
+.raisint {
+  position: absolute;
+  color: #c6c6c6;
+  font-style: italic;
+  font-size: 14px;
+  font-family: 'PT Sans', serif;
+  top: 390px;
+  left: 45px;
+  text-align: center;
+}
+
+.bus {
+  width: 25vw;
+  height: 25vw;
+  position: absolute;
+  left: 42%;
+  top: -125%;
+}
+
+.bust {
+  position: absolute;
+  color: #c6c6c6;
+  font-style: italic;
+  font-size: 14px;
+  font-family: 'PT Sans', serif;
+  top: 390px;
+  left: 441px;
+  text-align: center;
+}
+
+.pont {
+  width: 25vw;
+  height: 25vw;
+  position: absolute;
+  left: 101%;
+  top: -250%;
+}
+
+.pontt {
+  width: 18%;
+  position: absolute;
+  color: #c6c6c6;
+  font-style: italic;
+  font-size: 14px;
+  font-family: 'PT Sans', serif;
+  top: 390px;
+  left: 790px;
+  text-align: center;
+}
+
+.montagne {
+  width: 25vw;
+  height: 25vw;
+  position: absolute;
+  left: 160%;
+  top: -374%;
+}
+
+.montagnet {
+  width: 26%;
+  text-align: center;
+  position: absolute;
+  color: #c6c6c6;
+  font-style: italic;
+  font-size: 14px;
+  font-family: 'PT Sans', serif;
+  top: 390px;
+  left: 1163px;
+}
+
+.sliderb {
+  position: absolute;
+  float: left;
+  bottom: 50%;
+
+}
+
+button.left {
+  width: 4vw;
+  height: 4vw;
+  background-color: white;
+  cursor: pointer;
+  border-width: 1.25px;
+  border-style: solid;
+}
+
+.fa-angle-left {
+  color: #c6c6c6;
+  font-size: 20px;
+}
+
+button.right {
+  width: 4vw;
+  height: 4vw;
+  background-color: white;
+  cursor: pointer;
+  border-width: 1.5px;
+  border-style: solid;
+}
+
+.fa-angle-right {
+  color: #c6c6c6;
+  font-size: 20px;
+}
+
+.sliderp {
+  position: absolute;
+  right: 75%;
+  top: 48.15%;
+  font-size: 16px;
+}
+
+/* PARAGRAPH + KOMOL CITATION */
+
+h4 {
+  font-size: 32px;
+  font-family: 'Varela Round', serif;
+  margin-top: 700px;
+}
+
+.citationleft {
+  margin-right: 17vw;
+  margin-bottom: 50px;
+}
+
+.fa-quote-left {
+  position: absolute;
+  color: #215b9a;
+  left: -8%;
+  top: 62%;
+}
+
+.citation2 {
+  font-family: 'PT Sans', serif;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 30px;
+}
+
+/* KOMOL PORTRAIT */
+
+.imgkomol {
+  float: right;
+  margin-top: -275px;
+  margin-right: 75px;
+}
+
+.komolimg {
+  border-radius: 96px;
+  width: 4.5vw;
+}
+
+.komol {
+  color: inherit;
+}
+
+.uzbekistan {
+  font-size: 12px;
+  color: #c6c6c6;
+  font-family: 'PT Sans', serif;
+  font-style: italic;
+  margin-top: -50px;
+}
+
+/* WOLF VIDEO DESCRIPTION */
+
+.wolf {
+  text-align: center;
+  font-size: 12px;
+  font-family: 'PT Sans', serif;
+  font-style: italic;
+  color: #c6c6c6;
+}
+
+/* LEFT + RIGHT PARAGRAPH */
+
+h3 {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.left {
+  float: left;
+  width: 45%;
+}
+
+.right {
+  float: right;
+  width: 45%;
+}
+
+/* SOCIAL BUTTONS */
+
+.social {
+  padding-top: 350px;
+  margin-bottom: 150px;;
+}
+
+.facebook, .twitter, .google, .printerest {
+  border: none;
+  padding: 10px 42px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 5px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.facebook:hover {
+  box-shadow: 0 5px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+.twitter:hover {
+  box-shadow: 0 5px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+.google:hover {
+  box-shadow: 0 5px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+.printerest:hover {
+  box-shadow: 0 5px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+.facebook {
+  background-color: #215b9a;
+  color: white;
+  font-family: 'Oswald', serif;
+}
+
+.fa-facebook-f {
+  margin-left : -30px;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.twitter {
+  background-color: #00adf2;
+  color: white;
+  font-family: 'Oswald', serif;
+  transition-duration: 0.4s;
+}
+
+.fa-twitter {
+  margin-left : -30px;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.google {
+  background-color: #cd4535;
+  color: white;
+  font-family: 'Oswald', serif;
+  transition-duration: 0.4s;
+}
+
+.fa-google-plus-g {
+  margin-left : -30px;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.printerest {
+  background-color: #e61616;
+  color: white;
+  font-family: 'Oswald', serif;
+  transition-duration: 0.4s;
+}
+
+.fa-pinterest-p {
+  margin-left : -30px;
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+/* RETURN TO BLOG */
+
+.return {
+  font-family: 'Varela Round', sans-serif;
+  color: #215b9a;
+  margin-top: 60px;
+}
+
+.fa-arrow-left {
+  color: #c6c6c6;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.back {
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.back:hover {
+  border-bottom: 1px solid #215b9a;
+  text-shadow: 0.4px 0.4px 0.4px grey;
+}

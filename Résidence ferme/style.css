@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  border: 5px #467fce solid;
+}
+
+section, p {
+  text-align: center;
+}
+
+a {
+  margin-left: 87%;
+  margin-top: 3%;
+  display: inline-block;
+  font-family: 'Roboto Slab', serif;
+}
+
+.coq {
+  width: 100px;
+  height: 100px;
+}
+
+.maison {
+  margin-top: 5%;
+}
+
+h1, h2 {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+.sci {
+  text-decoration: underline;
+  font-size: 13px;
+}
+
+h2 {
+  color: #467fce;
+}
+
+div {
+  display: inline-block;
+}
+
+article {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+p {
+  font-family: 'PT Sans', serif;
+}
+
+div.square {
+  position:relative;
+  width: 14.40%;
+  background-color: #467fce;
+  display: inline-block;
+  margin-left: 4.5%;
+  margin-top: 3%;
+  margin-bottom: 10%;
+}
+
+div.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+div.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  font-family: 'Roboto Slab', sans-serif;
+  color: white;
+}
+
+.numero {
+  font-size: 15px;
+  font-family: 'PT Sans', sans-serif;
+  text-align: left;
+  margin-left: 15%;
+}
+
+.appart {
+  text-align: left;
+  margin-left: 15%;
+}
+
+.louer {
+  color: black;
+  text-align: left;
+  margin-top: -13%;
+  margin-left: 15%;
+}
+
+.decouvrez {
+  margin-bottom: 4%;
+}
+
+.fermier {
+  width: 50%;
+  position: absolute;
+}
+
+.rectangle {
+  position: relative;
+  width: 12%;
+  height: 100%;
+  margin-left: 67%;
+  margin-top: 8%;
+  background: #7099d1;
+  display: inline-block;
+}
+
+.rectangle:after {
+  content: "";
+  display: block;
+  padding-bottom: 5%;
+}
+
+.titre {
+  position: absolute;
+  font-size: 15px;
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.photos {
+  font-size: 20px;
+  font-family: 'Roboto Slab' sans-serif;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+.commune {
+  margin-top: 15%;
+}
+
+.list {
+  text-align: left;
+  list-style-type: none;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+  display: block;
+
+}
+
+.services {
+    margin-top: 20px;
+}
+
+.services tr td:nth-child(1) {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: bold;
+    color: #467fce;
+    text-align: right;
+    vertical-align: top;
+    width: 30%;
+}
+
+.services tr td:nth-child(2) {
+    text-align: left;
+}
+
+.chateau {
+  position: absolute;
+  margin-top: 5%;
+  width: 50%;
+
+}
+
+.rectangle2 {
+  position: relative;
+  width: 20%;
+  height: 100%;
+  margin-right: 20%;
+  margin-left: 3%;
+  margin-top: 29%;
+  background: #7099d1;
+  display: inline-block;
+}
+
+.rectangle2:after {
+  content: "";
+  display: block;
+  padding-bottom: 5%;
+}
+
+.ville {
+  position: absolute;
+  font-size: 15px;
+  font-family: 'PT Sans', sans-serif;
+  color: white;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.photos2 {
+  font-size: 20px;
+  font-family: 'Roboto Slab' sans-serif;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+.tel {
+  margin-top: 5%;
+  color: #467fce;
+  margin-bottom: 4%;
+}
+
+.contact {
+  font-size: 12px;
+  font-family: 'PT Sans', sans-serif;
+}
